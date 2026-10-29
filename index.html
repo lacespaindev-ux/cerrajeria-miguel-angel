@@ -148,7 +148,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .taller-copy p{color:var(--ash);font-size:17px}
 .taller-copy blockquote{margin:28px 0;padding:0 0 0 22px;border-left:2px solid var(--ember);font:italic 400 clamp(24px,2.6vw,32px)/1.25 var(--serif);color:var(--bone)}
 .equipo{margin-top:clamp(50px,7vw,90px);position:relative;border-radius:24px;overflow:hidden}
-.equipo img{width:100%;height:auto;aspect-ratio:21/9;object-fit:cover;filter:grayscale(1) contrast(1.05)}
+.equipo img{width:100%;height:auto;filter:grayscale(1) contrast(1.05)}
 .equipo figcaption{position:absolute;left:24px;bottom:22px;right:24px;font:italic 400 clamp(20px,2.4vw,30px)/1.2 var(--serif);text-shadow:0 2px 20px rgba(0,0,0,.6)}
 
 /* Proceso */
@@ -225,9 +225,11 @@ footer a:hover{color:var(--bone)}
   .grid .g1{grid-column:span 2;grid-row:span 2}
   .grid.filtered .card{grid-column:span 2;grid-row:span 2}
   .card .cap b{font-size:20px}
+  .equipo{overflow:visible;border-radius:0}
+  .equipo img{border-radius:18px}
+  .equipo figcaption{position:static;margin-top:12px;font-size:19px;color:var(--ash);text-shadow:none}
   .card .cap{left:12px;bottom:10px}
   .svc-grid,.steps,.contact-grid,.row2{grid-template-columns:1fr}
-  .equipo img{aspect-ratio:4/3}
   .lb-nav{top:auto;bottom:18px}
   .wa-float span{display:none}
   .wa-float{padding:0;width:58px;justify-content:center}
@@ -348,7 +350,7 @@ footer a:hover{color:var(--bone)}
         </div>
       </div>
       <figure class="equipo reveal">
-        <img src="img/equipo.jpg" alt="El equipo de la Cerrajería Miguel Ángel en su taller" loading="lazy">
+        <img src="img/equipo.jpg" alt="El equipo de la Cerrajería Miguel Ángel en su taller" width="1100" height="730" loading="lazy">
         <figcaption>El equipo, en el taller de Hoyo de Manzanares.</figcaption>
       </figure>
     </div>
