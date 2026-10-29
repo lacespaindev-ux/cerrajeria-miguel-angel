@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Voluta de forja -->
+  <path d="M33 21V15c0-5.5 4.2-9 9-9 4.3 0 7 2.9 7 6.4 0 3-2.2 5.2-5 5.2-2.4 0-4-1.7-4-3.8 0-1.6 1.2-2.8 2.7-2.8" stroke="#d6b77f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Yunque -->
+  <path d="M5 24c7.5 0 12.5-1.4 15-3h38v7.5h-6.5c-4.4 0-7.2 3-7.2 7.2V41H51v6.5H22V41h6.2v-5.3c0-4.2-2.8-7.2-7.2-7.2C12.7 28.5 7.6 26.8 5 24Z" fill="#d6b77f"/>
+  <path d="M17 53h30" stroke="#d6b77f" stroke-width="3.2" stroke-linecap="round"/>
+</svg>
